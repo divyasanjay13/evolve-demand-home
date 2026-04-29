@@ -465,6 +465,7 @@
        color: #2A2A6A;
        margin-bottom: 53px;
        margin-top: 16px;
+    
    }
 
    .btn-talk {
@@ -999,6 +1000,19 @@ line-height: 20px;
     line-height: 49px;
     color: #00004D; 
     margin-bottom: 44px;
+}.cta-box h2{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.cta-box p{
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--text-muted);
+    margin-bottom: 0;
+    font-weight: 500;
+    max-width: 700px;
+    margin: 0 auto;
+
 }
  
    .btn-primary-pill {
