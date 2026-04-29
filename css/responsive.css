@@ -11,12 +11,100 @@
  }
 
  /* ─── RESPONSIVE ─────────────────────────────── */
+
+ @media (max-width:1299px){
+    .hero-title {
+    font-size: 74px;
+    line-height: 90px;
+}
+
+.hero-sub {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.hero-content-wrap {
+    padding: 210px 20px 300px;
+}
+
+.btn-talk {
+    margin-bottom: 20px;
+}
+
+.section-pill {
+    font-size: 38px;
+}
+
+.section-sub {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.service-card h5 {
+    font-size: 24px;
+}
+ }
+@media (max-width:1199px){
+    .navbar-brand.brand-custom img {
+    width: 290px;
+}
+
+.nav-links-desktop li a {
+    font-size: 16px;
+}
+
+.btn-apply {
+    font-size: 16px;
+}
+}
+
  @media (max-width: 991px) {
 
      .nav-links-desktop,
      .btn-apply.desktop-only {
          display: none !important;
      }
+     .hero-title {
+    font-size: 54px;
+    line-height: 70px;
+}
+
+.hero-sub {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 26px;
+    margin-top: 0;
+}
+
+.btn-talk {
+    margin-bottom: 50px;
+}
+
+.hero-content-wrap {
+    padding: 210px 20px 253px;
+}
+
+#mainNav {
+    padding-top: 53px;
+}
+
+.hero-grid {
+    top: 0;
+}
+
+.section-pill {
+    padding: 8px 24px;
+    font-size: 35px;
+}
+
+.section-sub {
+    font-size: 20px;
+}
+
+.service-card h5 {
+    font-size: 20px;
+}
+
 
      .nav-toggler {
          display: flex !important;
