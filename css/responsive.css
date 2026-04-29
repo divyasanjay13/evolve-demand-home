@@ -1,0 +1,249 @@
+ @media (min-width: 1400px) {
+
+     .container,
+     .container-lg,
+     .container-md,
+     .container-sm,
+     .container-xl,
+     .container-xxl {
+         max-width: 1120px;
+     }
+ }
+
+ /* ─── RESPONSIVE ─────────────────────────────── */
+ @media (max-width: 991px) {
+
+     .nav-links-desktop,
+     .btn-apply.desktop-only {
+         display: none !important;
+     }
+
+     .nav-toggler {
+         display: flex !important;
+     }
+
+     .below-inner {
+         flex-direction: column;
+         gap: 10px;
+     }
+
+     .stat-col {
+         min-width: 100%;
+     }
+
+     .watermark-text img {
+         max-width: 100%;
+     }
+
+        footer::after {
+    bottom: 0;
+    top: auto;
+    right: 0;
+}
+ }
+
+ /* ─── Responsive tweaks ─── */
+ @media (max-width: 768px) {
+     .hero {
+         padding: 60px 0 50px;
+     }
+     #mainNav{
+        padding-top: 30px;
+     }
+     .hero-content-wrap{
+        padding-top: 140px;
+        padding-bottom: 199px;
+     }
+         .hero-grid {
+         top: 0px;
+     }
+
+     .hero-title {
+         font-size: 35px;
+         line-height: 130%;
+         letter-spacing: -0.1px;
+     }
+     .hero-sub{
+        font-size: 18px;
+        line-height: 130%;
+     }
+     .stat-heading {
+    font-size: 36px;
+    max-width: 600px;
+    line-height: 130%;
+}
+         .btn-talk .text {
+         padding: 13px 20px;
+     }
+
+     .btn-talk {
+         font-size: 14px;
+         margin-bottom: 60px;
+     }
+
+     .btn-talk .talk-arrow {
+         width: 40px;
+         height: 40px;
+     }
+     .services-section{
+        padding-top: 40px;
+     }
+
+        .section-pill {
+        font-size: 24px;
+        padding: 3px 20px;
+    }
+        .section-sub {
+        font-size: 18px;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .service-card{
+        padding:24px;
+    }
+      .service-card h5{
+        font-size: 20px;
+      }
+      .service-card p{
+        font-size: 14px;
+      }
+      .btn-outline-dark-pill
+      {
+        font-size: 14px;
+      }
+     .partners-section .row>div+div {
+         margin-top: 24px;
+     }
+
+     .diff-img-wrap {
+         min-height: 240px;
+         margin-bottom: 32px;
+     }
+     .cta-box{
+        margin-bottom: 16px;
+        padding: 20px;
+     }
+       .cta-box h2{
+        font-size: 20px;
+       }
+.para-footer {
+    font-size: 16px;
+    margin-top: 6px;
+}
+
+.input-wrapper {
+    max-width: 100%;
+}
+
+.footer-heading {
+    font-size: 20px;
+}
+
+.signup-btn {
+    font-size: 14px;
+}
+
+footer input {
+    font-size: 14px;
+}
+ .brand-row {
+    justify-content: center;
+  }
+
+footer img {
+    width: 280px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    font-size: 16px !important;
+}
+
+.social-links {
+    margin-top: 8px;
+}
+
+.bg-blue-footer {
+    padding: 20px;
+}
+ }
+
+
+/* Small screens */
+ @media (max-width: 575px) {
+     .hero-title {
+         letter-spacing: -1px;
+         font-size: 28px;
+         line-height: 138%;
+     }
+
+     .navbar-brand.brand-custom img {
+         max-width: 100%;
+         width: 220px;
+     }
+
+     #mainNav {
+         padding-top: 30px;
+     }
+
+     .hero-content-wrap {
+         padding: 110px 20px 199px;
+     }
+
+     .hero-sub {
+         font-size: 16px;
+         line-height: 140%;
+         margin-top: 0px;
+         margin-bottom: 35px;
+     }
+
+     .btn-talk .text {
+         padding: 13px 20px;
+     }
+
+     .btn-talk {
+         font-size: 14px;
+         margin-bottom: 60px;
+     }
+
+     .btn-talk .talk-arrow {
+         width: 40px;
+         height: 40px;
+     }
+
+     .hero-blob-2 {
+         height: 400px;
+     }
+
+     .stat-heading {
+         font-size: 30px;
+         line-height: 140%;
+     }
+
+     .text-col p {
+         font-size: 14px;
+         line-height: 180%;
+     }
+
+     .stat-divider {
+         margin: 20px auto;
+     }
+
+     .watermark-text {
+         left: -10px;
+         top: -15px;
+     }
+     .brand-row img {
+    max-height: 30px;
+  }
+
+       .input-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .signup-btn {
+    justify-content: flex-end;
+  }
+ }

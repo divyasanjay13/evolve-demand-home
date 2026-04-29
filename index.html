@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Evolve Demand</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+  <!-- ═══ OFFCANVAS OVERLAY ═════════════════════════ -->
+  <div class="offcanvas-overlay" id="offcanvasOverlay" onclick="closeOffcanvas()"></div>
+
+  <!-- ═══ OFFCANVAS NAV ═════════════════════════════ -->
+  <nav class="offcanvas-nav mobile-nav" id="offcanvasNav" aria-label="Mobile Navigation">
+    <div class="offcanvas-header">
+      <!-- <a href="#" class="navbar-brand brand-custom" style="font-size:1.1rem;">
+      <img src="./assets/logo/logo-head.png" alt="">
+      </a> -->
+      <button class="offcanvas-close" onclick="closeOffcanvas()" aria-label="Close menu">&#x2715;</button>
+    </div>
+    <ul class="offcanvas-links">
+      <li><a href="#" class="active">Home</a></li>
+      <li><a href="#">Process</a></li>
+      <li><a href="#">Testimonials</a></li>
+      <li><a href="#">Services</a></li>
+    </ul>
+    <div class="offcanvas-bottom mt-4">
+       <a href="#" class="btn-apply ">
+            Apply Now
+           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.025 4.94167L17.0834 10L12.025 15.0583" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.91663 10H16.9416" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </a>
+    </div>
+  </nav>
+
+  <!-- ═══ NAVBAR ════════════════════════════════════ -->
+  <header id="mainNav">
+    <div class="container-xl">
+      <div class="d-flex align-items-center justify-content-between">
+
+        <!-- Brand -->
+        <a href="#" class="navbar-brand brand-custom">
+        <img src="./assets/logo/logo-head.png" alt="" width="360px" height="34px">
+        </a>
+
+        <!-- Desktop links -->
+        <ul class="nav-links-desktop mb-0">
+          <li><a href="#">Home</a></li>
+          <li><span class="nav-sep">•</span></li>
+          <li><a href="#">Process</a></li>
+          <li><span class="nav-sep">•</span></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><span class="nav-sep">•</span></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+
+        <!-- CTA + toggler -->
+        <div class="d-flex align-items-center gap-3">
+          <a href="#" class="btn-apply desktop-only">
+            Apply Now
+           <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.025 4.94167L17.0834 10L12.025 15.0583" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M2.91663 10H16.9416" stroke="white" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+          </a>
+          <button class="nav-toggler" id="navToggler" onclick="openOffcanvas()" aria-label="Open menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ═══ HERO SECTION ══════════════════════════════ -->
+  <section class="hero-section">
+    <!-- grid overlay -->
+    <div class="hero-grid"></div>
+    <!-- glow blobs -->
+   
+    <div class="hero-blob-2"></div>
+
+    <!-- content -->
+    <div class="hero-content-wrap">
+      <h1 class="hero-title">
+        Evolve the way your<br />
+        <span>customers Demand you.</span>
+      </h1>
+      <p class="hero-sub">
+        Evolve Demand's performance-based lead-generation solutions<br class="d-none d-md-block" />
+        will help bring the traffic your business deserves.
+      </p>
+      <a href="#" class="btn-talk">
+       <div class="text">Let's Talk</div>
+        <span class="talk-arrow"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.4385 3.55625L1.47292 12.5219L0 11.049L8.96457 2.08333H1.06354V0H12.5219V11.4583H10.4385V3.55625Z" fill="white"/>
+</svg>
+</span>
+      </a>
+    </div>
+
+  
+  </section>
+
+  <!-- ═══ BELOW SECTION ════════════════════════════ -->
+  <section class="below-section">
+    <div class="below-inner">
+
+      <!-- stat col -->
+      <div class="stat-col">
+        <span class="watermark-text">
+          <img src="./assets/brandtext.png" alt="">
+        </span>
+        <img src="./assets/pseudo.png" alt="" class="squiggle">
+        <p class="stat-heading">
+          We've More Then 254+ Global Partners
+        </p>
+       
+      </div>
+
+      <!-- text col -->
+      <div class="text-col">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+          Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
+          natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis.
+        </p>
+      </div>
+      
+    </div>
+     <div class="stat-divider"></div>
+    
+  </section>
+
+
+  <!-- Brand section  -->
+<section class="brand-section">
+  <div class="brand-container">
+    
+    <div class="brand-row">
+      <img src="./assets/partner-1.png" alt="Movenpick">
+      <img src="./assets/partner-2.png" alt="Raz Anwar">
+      <img src="./assets/partner-3.png" alt="Rosegal">
+      <img src="./assets/partner-4.png" alt="Eyab">
+      <img src="./assets/partner-5.png" alt="Daman">
+    </div>
+
+    <div class="brand-row">
+      <img src="./assets/partner-1.png" alt="Movenpick">
+      <img src="./assets/partner-2.png" alt="Raz Anwar">
+      <img src="./assets/partner-3.png" alt="Rosegal">
+      <img src="./assets/partner-4.png" alt="Eyab">
+      <img src="./assets/partner-5.png" alt="Daman">
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ─── SERVICES ─── -->
+<section class="services-section" id="services">
+  <div class="container text-center">
+    <div data-reveal>
+      <div class="section-pill">Our Services</div>
+      <p class="section-sub">The service we offer is specifically designed to meet your needs.</p>
+    </div>
+    <div class="row g-4 text-start mt-4">
+      <div class="col-lg-6 col-md-6" data-reveal data-delay="1">
+        <div class="service-card">
+          <div class="icon-wrap"><img src="./assets/iconserv-1.svg" alt=""></div>
+          <h5>Marketing Automation</h5>
+          <p>From delivering hot leads to you in real-time to sending mass e-mails & SMS blasts to your clients. Our cutting-edge systems can get you your next sale without the lift of a finger.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6" data-reveal data-delay="2">
+        <div class="service-card">
+          <div class="icon-wrap"><img src="./assets/iconserv-2.svg" alt=""></div>
+          <h5>Web Development</h5>
+          <p>Have ideas or concepts that you don't know how to execute? Our company's best teams are experienced project managers that can help you bring your ideas to life.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6" data-reveal data-delay="3">
+        <div class="service-card">
+          <div class="icon-wrap"><img src="./assets/iconserv-3.svg" alt=""></div>
+          <h5>SEO Services</h5>
+          <p>Having good online presence is important. Our team can help you rank higher on Google so that your business gets the exposure it deserves.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6" data-reveal data-delay="4">
+        <div class="service-card">
+          <div class="icon-wrap"><img src="./assets/iconserv-4.svg" alt=""></div>
+          <h5>Market Research</h5>
+          <p>Before we start evolving your demand, we will do our diligence to research your competitors to best design a strategy tailored only for you.</p>
+        </div>
+      </div>
+    </div>
+    <div data-reveal>
+      <a href="#" class="btn-outline-dark-pill">View All Services</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ─── CTA BANNER ─── -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="cta-box" data-reveal>
+      <h2 class="mb-0">Join our community by using our services<br class="d-none d-md-block" />and grow your business.</h2>
+    </div>
+    <div class="d-flex flex-wrap gap-3 justify-content-center">
+      <a href="#" class="btn-primary-pill">Apply Now</a>
+      <a href="#" class="btn-ghost-pill">View Our Work</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="container">
+    <div class="bg-blue-footer">
+  <div class="row g-5 justify-content-between">
+      <div class="col-lg-5 col-md-6 d-flex flex-column justify-content-between">
+        <div class="brand">
+          <img src="./assets/logo/logo-footer.png" alt="">
+        </div>
+      <div>
+          <p style="color:#fff;font-size:20px; font-weight:500;font-family:'Jost';line-height:1.65; ">
+          Follow
+        </p>
+        <div class="social-links">
+          <a href="#"><svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.02734 7.875H4.97656V14H2.24218V7.875H-6.19888e-06V5.35938H2.24218V3.41797C2.24218 1.23047 3.55468 0 5.55078 0C6.50781 0 7.51953 0.191406 7.51953 0.191406V2.35156H6.39843C5.30468 2.35156 4.97656 3.00781 4.97656 3.71875V5.35938H7.41015L7.02734 7.875Z" fill="white"/>
+</svg>
+</a>
+          <a href="#"><svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5508 2.81641C12.5508 2.95312 12.5508 3.0625 12.5508 3.19922C12.5508 7 9.67968 11.3477 4.40234 11.3477C2.76171 11.3477 1.25781 10.8828 -6.19888e-06 10.0625C0.218744 10.0898 0.437494 10.1172 0.683588 10.1172C2.02343 10.1172 3.2539 9.65234 4.23828 8.88672C2.98046 8.85938 1.91406 8.03906 1.55859 6.89062C1.74999 6.91797 1.91406 6.94531 2.10546 6.94531C2.35156 6.94531 2.62499 6.89062 2.84374 6.83594C1.53124 6.5625 0.546869 5.41406 0.546869 4.01953V3.99219C0.929681 4.21094 1.39453 4.32031 1.85937 4.34766C1.0664 3.82812 0.574213 2.95312 0.574213 1.96875C0.574213 1.42188 0.710931 0.929688 0.957025 0.519531C2.3789 2.24219 4.51171 3.39062 6.89062 3.52734C6.83593 3.30859 6.80859 3.08984 6.80859 2.87109C6.80859 1.28516 8.09374 0 9.67968 0C10.5 0 11.2383 0.328125 11.7852 0.902344C12.4141 0.765625 13.043 0.519531 13.5898 0.191406C13.3711 0.875 12.9336 1.42188 12.332 1.77734C12.9062 1.72266 13.4805 1.55859 13.9727 1.33984C13.5898 1.91406 13.0977 2.40625 12.5508 2.81641Z" fill="white"/>
+</svg>
+</a>
+          <a href="#"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2.73437 12.2227H0.1914V4.04688H2.73437V12.2227ZM1.44921 2.95312C0.656244 2.95312 -6.19888e-06 2.26953 -6.19888e-06 1.44922C-6.19888e-06 0.65625 0.656244 0 1.44921 0C2.26953 0 2.92578 0.65625 2.92578 1.44922C2.92578 2.26953 2.26953 2.95312 1.44921 2.95312ZM12.2227 12.2227H9.70703V8.25781C9.70703 7.30078 9.67968 6.09766 8.36718 6.09766C7.05468 6.09766 6.86328 7.10938 6.86328 8.17578V12.2227H4.32031V4.04688H6.7539V5.16797H6.78124C7.13671 4.53906 7.95703 3.85547 9.18749 3.85547C11.7578 3.85547 12.25 5.55078 12.25 7.73828V12.2227H12.2227Z" fill="white"/>
+</svg>
+</a>
+          <a href="#"><svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.15234 2.98047C7.87499 2.98047 9.29687 4.40234 9.29687 6.125C9.29687 7.875 7.87499 9.26953 6.15234 9.26953C4.40234 9.26953 3.00781 7.875 3.00781 6.125C3.00781 4.40234 4.40234 2.98047 6.15234 2.98047ZM6.15234 8.17578C7.27343 8.17578 8.17578 7.27344 8.17578 6.125C8.17578 5.00391 7.27343 4.10156 6.15234 4.10156C5.0039 4.10156 4.10156 5.00391 4.10156 6.125C4.10156 7.27344 5.03124 8.17578 6.15234 8.17578ZM10.1445 2.87109C10.1445 3.28125 9.8164 3.60938 9.40624 3.60938C8.99609 3.60938 8.66796 3.28125 8.66796 2.87109C8.66796 2.46094 8.99609 2.13281 9.40624 2.13281C9.8164 2.13281 10.1445 2.46094 10.1445 2.87109ZM12.2227 3.60938C12.2773 4.62109 12.2773 7.65625 12.2227 8.66797C12.168 9.65234 11.9492 10.5 11.2383 11.2383C10.5273 11.9492 9.65234 12.168 8.66796 12.2227C7.65624 12.2773 4.62109 12.2773 3.60937 12.2227C2.62499 12.168 1.77734 11.9492 1.03906 11.2383C0.328119 10.5 0.109369 9.65234 0.0546813 8.66797C-6.19888e-06 7.65625 -6.19888e-06 4.62109 0.0546813 3.60938C0.109369 2.625 0.328119 1.75 1.03906 1.03906C1.77734 0.328125 2.62499 0.109375 3.60937 0.0546875C4.62109 0 7.65624 0 8.66796 0.0546875C9.65234 0.109375 10.5273 0.328125 11.2383 1.03906C11.9492 1.75 12.168 2.625 12.2227 3.60938ZM10.9102 9.73438C11.2383 8.94141 11.1562 7.02734 11.1562 6.125C11.1562 5.25 11.2383 3.33594 10.9102 2.51562C10.6914 1.99609 10.2812 1.55859 9.76171 1.36719C8.9414 1.03906 7.02734 1.12109 6.15234 1.12109C5.24999 1.12109 3.33593 1.03906 2.54296 1.36719C1.99609 1.58594 1.58593 1.99609 1.36718 2.51562C1.03906 3.33594 1.12109 5.25 1.12109 6.125C1.12109 7.02734 1.03906 8.94141 1.36718 9.73438C1.58593 10.2812 1.99609 10.6914 2.54296 10.9102C3.33593 11.2383 5.24999 11.1562 6.15234 11.1562C7.02734 11.1562 8.9414 11.2383 9.76171 10.9102C10.2812 10.6914 10.7187 10.2812 10.9102 9.73438Z" fill="white"/>
+</svg>
+</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-6">
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="#">Product Design</a></li>
+          <li><a href="#">Business Consulting</a></li>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">SEO Optimization</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-lg-4 col-md-6">
+        <div class="footer-heading">Newsletter</div>
+        <p class="para-footer">Get Every Single Update to Join Our Newsletter</p>
+       <div class="input-wrapper">
+  <div class="left">
+    <!-- Better SVG icon -->
+   <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.3125 0C17.2266 0 18 0.773438 18 1.6875V11.8125C18 12.7617 17.2266 13.5 16.3125 13.5H1.6875C0.738281 13.5 0 12.7617 0 11.8125V1.6875C0 0.773438 0.738281 0 1.6875 0H16.3125ZM16.3125 1.6875H1.6875V3.12891C2.46094 3.79688 3.72656 4.78125 6.39844 6.89062C6.99609 7.34766 8.15625 8.47266 9 8.4375C9.80859 8.47266 10.9688 7.34766 11.5664 6.89062C14.2383 4.78125 15.5039 3.79688 16.3125 3.12891V1.6875ZM1.6875 11.8125H16.3125V5.30859C15.5039 5.94141 14.3438 6.85547 12.6211 8.22656C11.8125 8.82422 10.4766 10.1602 9 10.125C7.48828 10.1602 6.11719 8.82422 5.34375 8.22656C3.62109 6.85547 2.46094 5.94141 1.6875 5.30859V11.8125Z" fill="white"/>
+</svg>
+    <input type="email" placeholder="Email Address">
+  </div>
+
+  <button class="signup-btn">
+    Sign Up <span>»</span>
+  </button>
+</div>
+      </div>
+    </div>
+      <hr class="footer-divider" />
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 footer-bottom">
+      <span>© 2025 Evolve Demand. All rights reserved.</span>
+      <div class="d-flex gap-3">
+        <a href="#" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.8rem;">Privacy Policy</a>
+        <a href="#" style="color:rgba(255,255,255,.4);text-decoration:none;font-size:.8rem;">Terms of Service</a>
+      </div>
+    </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
