@@ -1053,7 +1053,7 @@
 
    /* LEFT — illustrated image panel */
    .diff-left {
-       flex: 0 0 42%;
+       flex: 0 0 45%;
        position: relative;
        border-radius: 30px;
        overflow: hidden;
@@ -1257,6 +1257,8 @@
        padding: 25px;
        border-top-left-radius: 30px;
        border-top-right-radius: 30px;
+       z-index: 2;
+       position: relative;
    }
 
    footer img {
