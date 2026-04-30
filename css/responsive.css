@@ -31,13 +31,15 @@
          margin-bottom: 20px;
      }
 
-     .section-pill {
-         font-size: 38px;
-     }
+         .section-pill {
+        font-size: 34px;
+        line-height: 38px;
+    }
 
      .section-sub {
-         font-size: 22px;
-         line-height: 35px;
+         font-size: 20px;
+        line-height: 30px;
+        margin: 0;
      }
 
      .service-card h5 {
@@ -59,10 +61,10 @@
          width: 35px;
      }
 
-     .result-label {
-         font-size: 20px;
-         line-height: 30px;
-     }
+        .result-label {
+        font-size: 18px;
+        line-height: 24px;
+    }
 
      .result-desc {
          padding: 8px 0;
@@ -296,12 +298,12 @@
          max-width: 100%;
      }
 
-     footer::after {
+     /* footer::after {
          bottom: 0;
          top: auto;
          right: 0;
          z-index: 0;
-     }
+     } */
  }
 
  /* ─── Responsive tweaks ─── */
