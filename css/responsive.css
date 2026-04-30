@@ -75,6 +75,41 @@
          padding: 10px 20px;
          margin-top: 0;
      }
+
+     .inner-bg {
+         padding: 39px 13px 30px 0px;
+     }
+
+     .diff-right h2 {
+         font-size: 26px;
+         line-height: 50px;
+     }
+
+     .diff-right .diff-subtitle {
+         font-size: 16px;
+         line-height: 26px;
+     }
+
+     .diff-right .diff-subtitle strong {
+         font-weight: 600;
+         font-size: 24px;
+     }
+
+     .diff-item h6 {
+         font-size: 24px;
+         line-height: 30px;
+     }
+
+     .diff-item p {
+         font-size: 16px;
+         line-height: 24px;
+     }
+
+     .diff-left img {
+         height: 750px;
+     }
+
+
  }
 
  @media (max-width:1199px) {
@@ -126,6 +161,10 @@
          padding-top: 16px;
          margin-top: 8px;
          font-size: 16px;
+     }
+
+     .diff-left img {
+         height: 800px;
      }
  }
 
@@ -261,6 +300,7 @@
          bottom: 0;
          top: auto;
          right: 0;
+         z-index: 0;
      }
  }
 
@@ -318,6 +358,10 @@
          max-height: 45px;
      }
 
+     .brand-section {
+         padding: 0;
+     }
+
      .services-section {
          padding-top: 40px;
          padding-bottom: 60px;
@@ -336,7 +380,7 @@
      }
 
      .service-card {
-         padding: 24px;
+         padding: 20px;
      }
 
      .service-card h5 {
@@ -370,8 +414,9 @@
      }
 
      .result-label {
-         font-size: 20px;
+         font-size: 18px;
          margin-bottom: 0;
+         margin-top: 8px;
      }
 
      .result-desc {
@@ -384,6 +429,39 @@
          padding: 10px 20px;
          font-size: 14px;
          margin-top: 0px;
+     }
+
+     .diff-right h2 {
+         font-size: 24px;
+         line-height: 43px;
+     }
+
+     .diff-right .diff-subtitle {
+         font-size: 16px;
+         line-height: 24px;
+     }
+
+     .diff-right .diff-subtitle strong {
+         font-size: 20px;
+     }
+
+     .diff-item h6 {
+         font-size: 20px;
+         line-height: 24px;
+     }
+
+     .diff-item p {
+         font-size: 14px;
+         line-height: 22px;
+     }
+
+     .inner-bg {
+         padding-bottom: 24px;
+     }
+
+     .cta-banner {
+         padding: 20px 0px;
+         padding-bottom: 40px;
      }
 
      .video-thumb {
@@ -573,5 +651,46 @@
 
      .signup-btn {
          justify-content: flex-end;
+     }
+
+     .result-desc {
+         font-size: 14px;
+         line-height: 20px;
+         padding: 12px;
+     }
+
+     .result-label {
+         font-size: 16px;
+     }
+
+     .result-stat {
+         font-size: 48px;
+     }
+
+     .result-stat .arrow svg {
+         width: 30px;
+     }
+
+     .section-sub {
+         font-size: 16px;
+         margin-top: 0px;
+     }
+
+     .section-pill {
+         font-size: 20px;
+         padding: 3px 10px;
+         line-height: 34px;
+     }
+
+     .services-section {
+         padding-bottom: 40px;
+     }
+
+     .global-section h2 {
+         font-size: 22px;
+     }
+
+     .global-section p {
+         line-height: 24px;
      }
  }
