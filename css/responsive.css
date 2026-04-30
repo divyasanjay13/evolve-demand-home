@@ -297,7 +297,9 @@
      .watermark-text img {
          max-width: 100%;
      }
-
+.inner-bg::before{
+    display: none;
+}
      /* footer::after {
          bottom: 0;
          top: auto;
@@ -646,9 +648,12 @@
      }
 
      .input-wrapper {
-         flex-direction: column;
+         /* flex-direction: column; */
          align-items: stretch;
          gap: 12px;
+     }
+     .para-footer{
+        line-height: 24px;
      }
 
      .signup-btn {
