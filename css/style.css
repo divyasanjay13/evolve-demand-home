@@ -207,7 +207,7 @@
        transition: color 0.2s;
    }
 
-   .nav-links-desktop li a:hover {
+   .nav-links-desktop li a:hover , .nav-links-desktop li a.active {
        color: var(--navy);
    }
 
