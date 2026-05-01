@@ -23,9 +23,9 @@
          line-height: 40px;
      }
 
-     .hero-content-wrap {
-         padding: 210px 20px 300px;
-     }
+   .hero-content-wrap {
+    padding: 210px 20px 221px;
+}
 
      .btn-talk {
          margin-bottom: 20px;
@@ -193,9 +193,9 @@
          margin-bottom: 50px;
      }
 
-     .hero-content-wrap {
-         padding: 210px 20px 253px;
-     }
+    .hero-content-wrap {
+    padding: 210px 20px 171px;
+}
 
      #mainNav {
          padding-top: 53px;
@@ -203,6 +203,9 @@
 
      .hero-grid {
          top: 0;
+     }
+     .partner-shape-section{
+        padding-top: 20px;
      }
 
      .section-pill {
@@ -317,11 +320,10 @@
      #mainNav {
          padding-top: 30px;
      }
-
-     .hero-content-wrap {
-         padding-top: 140px;
-         padding-bottom: 199px;
-     }
+.hero-content-wrap {
+    padding-top: 140px;
+    padding-bottom: 139px;
+}
 
      .hero-grid {
          top: 0px;
@@ -342,6 +344,10 @@
          font-size: 36px;
          max-width: 600px;
          line-height: 130%;
+     }
+
+       .partner-shape-section{
+        padding-top: 0px;
      }
 
      .btn-talk .text {
