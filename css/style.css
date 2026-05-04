@@ -1571,3 +1571,26 @@ footer::after {
    [data-reveal][data-delay="4"] {
        transition-delay: .4s;
    }
+
+   /* new css */
+
+   .hero-grid {
+    background-position: top;
+    top: 32px;   
+}
+
+.hero-section {
+    background: #FFF;
+}
+@media (max-width: 575px) {
+    .hero-section{
+        min-height:80vh;
+    }
+        .hero-content-wrap {
+        padding: 30px 20px 89px;
+    }
+    .btn-talk {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+}
